@@ -22,6 +22,5 @@ done;
 echo -e "details of the added users: \n\n"
 tail /etc/passwd | cat -n 
 
-# for users in ubuntu redhat gold ben centos sam ; do userdel -r $users ; done 
-# for names in $(cut -d ":" -f 1 /etc/passwd| tail -n 6); do userdel -r $names; done
+# for users in ubuntu redhat gold ben centos sam ; do userdel -r $users ; done
 # for noels in noel{1..5}; do userdel -r $noels; done
