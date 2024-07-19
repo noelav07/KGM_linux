@@ -1,0 +1,78 @@
+#
+PASS_MAX_DAYS   30
+'
+'
+consultants:x:35000:
+'
+'
+consultant1:x:1000:1000::/home/consultant1:/bin/bash
+'
+'
+Last password change					: Jul 19, 2024
+Password expires					: Aug 18, 2024
+Password inactive					: never
+Account expires						: Oct 17, 2024
+Minimum number of days between password change		: 0
+Maximum number of days between password change		: 30
+Number of days of warning before password expires	: 7
+consultant2:x:1001:1001::/home/consultant2:/bin/bash
+'
+'
+Last password change					: Jul 19, 2024
+Password expires					: Aug 18, 2024
+Password inactive					: never
+Account expires						: Oct 17, 2024
+Minimum number of days between password change		: 0
+Maximum number of days between password change		: 30
+Number of days of warning before password expires	: 7
+consultant3:x:1002:1002::/home/consultant3:/bin/bash
+'
+'
+Last password change					: Jul 19, 2024
+Password expires					: Aug 18, 2024
+Password inactive					: never
+Account expires						: Oct 17, 2024
+Minimum number of days between password change		: 0
+Maximum number of days between password change		: 30
+Number of days of warning before password expires	: 7
+consultant2:
+
+Last password change					: Jul 19, 2024
+Password expires					: Aug 03, 2024
+Password inactive					: never
+Account expires						: Oct 17, 2024
+Minimum number of days between password change		: 0
+Maximum number of days between password change		: 15
+Number of days of warning before password expires	: 7
+'
+'
+mkdir: created directory '/home/consultants'
+'
+'
+changed group of '/home/consultants' from root to consultants
+'
+'
+drwxr-xr-x. 2 root consultants 6 Jul 19 12:13 /home/consultants
+'
+'
+mode of '/home/consultants' changed from 0755 (rwxr-xr-x) to 2770 (rwxrws---)
+'
+'
+drwxrws---. 2 root consultants 6 Jul 19 12:13 /home/consultants
+'
+'
+tech1:x:1003:1003::/home/tech1:/bin/bash
+'
+'
+tech2:x:1004:1004::/home/tech2:/bin/bash
+'
+'
+database1:x:1005:1005::/home/database1:/bin/bash
+'
+'
+/home/consultants/tech1user.txt
+'
+'
+bash: line 1: /home/consultants/database1user.txt: Permission denied
+'
+'
